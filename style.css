@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Courier New", sans-serif;
+    font-size: 18px;
+
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #444;
+    color: #ccc;
+}
+#game {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    border: 3px inset black;
+    background: rgba(44, 44, 44, 0.6) url("img/stoneBrick.png") repeat;
+    background-size: 128px;
+    background-blend-mode: darken;
+}
+#game:hover {
+    cursor: url("img/paw.png") 16 16, auto;
+}
